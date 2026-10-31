@@ -1,9 +1,7 @@
-"""Chỉ số đánh giá dùng chung, chỉ sử dụng NumPy."""
 import numpy as np
 
 
 def tinh_chi_so(y_that, y_du_doan, so_lop):
-    """Trả về bảng (so_lop, 3): Precision, Recall, F1."""
     chi_so = []
     for lop in range(so_lop):
         TP = np.sum((y_that == lop) & (y_du_doan == lop))
