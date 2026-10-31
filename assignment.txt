@@ -1,0 +1,11 @@
+Bài tập 1 (4 điểm)
+- Chỉ sử dụng NumPy để xây dựng mô hình Hồi quy Logistic (Logistic Regression).
+- Huấn luyện mô hình bằng phương pháp Gradient Descent (hạ gradient) để phân loại ảnh chữ số 0 và 1 trên bộ dữ liệu MNIST. Đánh giá mô hình bằng các chỉ số Precision, Recall và F1-score.
+- Vẽ biểu đồ hàm mất mát (loss) trong quá trình huấn luyện.
+Bài tập 2 (4 điểm)
+- Chỉ sử dụng NumPy để xây dựng mô hình Hồi quy Softmax (Softmax Regression).
+- Huấn luyện mô hình bằng phương pháp Gradient Descent (hạ gradient) để phân loại ảnh của 10 chữ số từ 0 đến 9 trên bộ dữ liệu MNIST. Đánh giá mô hình bằng các chỉ số Precision, Recall và F1-score.
+- Vẽ biểu đồ hàm mất mát (loss) trong quá trình huấn luyện.
+Bài tập 3 (2 điểm)
+- Sử dụng một thư viện học máy (Scikit-learn hoặc Skorch) để triển khai và đánh giá mô hình Hồi quy Logistic trên bộ dữ liệu MNIST.
+- Sử dụng một thư viện học máy (Scikit-learn hoặc Skorch) để triển khai và đánh giá mô hình Hồi quy Softmax trên bộ dữ liệu MNIST.
